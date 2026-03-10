@@ -1,3 +1,4 @@
 void main() {
-  int batasMaksimal = 20;
+  int batas = 20;
+  tampilkanHasil(batas);
 }

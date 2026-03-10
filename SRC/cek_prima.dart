@@ -1,3 +1,11 @@
 void main() {
-  int batasMaksimal = 20;
+  int batasMaksimal = 20; 
+}
+
+bool isPrima(int n) {
+  if (n < 2) return false;
+  for (int i = 2; i < n; i++) {
+    if (n % i == 0) return false;
+  }
+  return true;
 }

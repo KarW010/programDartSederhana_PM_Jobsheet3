@@ -10,3 +10,9 @@ bool isPrima(int n) {
   }
   return true;
 }
+
+void tampilkanHasil(int batas) {
+  for (int i = 2; i <= batas; i++) {
+    if (isPrima(i)) print('$i adalah bilangan prima');
+  }
+}
